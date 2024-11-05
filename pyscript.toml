@@ -3,13 +3,13 @@ description = "simple program"
 packages = ["numpy", "scikit-learn"]
 
 [[fetch]]
-from = 'https://peterlinportfolio.com/data/t10k-images.idx3-ubyte'
+from = 'https://raw.githubusercontent.com/peter0715/number-recognition/data/t10k-images.idx3-ubyte'
 
 [[fetch]]
-from = 'https://peterlinportfolio.com/data/t10k-labels.idx1-ubyte'
+from = 'https://raw.githubusercontent.com/peter0715/number-recognition/data/t10k-labels.idx1-ubyte'
 
 [[fetch]]
-from = 'https://peterlinportfolio.com/data/train-images.idx3-ubyte'
+from = 'https://raw.githubusercontent.com/peter0715/number-recognition/data/train-images.idx3-ubyte'
 
 [[fetch]]
-from = 'https://peterlinportfolio.com/data/train-labels.idx1-ubyte'
+from = 'https://raw.githubusercontent.com/peter0715/number-recognition/data/train-labels.idx1-ubyte'
