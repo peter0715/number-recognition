@@ -1,0 +1,15 @@
+name = "Digit Recognition"
+description = "simple program"
+packages = ["numpy", "scikit-learn"]
+
+[[fetch]]
+from = 'https://peterlinportfolio.com/data/t10k-images.idx3-ubyte'
+
+[[fetch]]
+from = 'https://peterlinportfolio.com/data/t10k-labels.idx1-ubyte'
+
+[[fetch]]
+from = 'https://peterlinportfolio.com/data/train-images.idx3-ubyte'
+
+[[fetch]]
+from = 'https://peterlinportfolio.com/data/train-labels.idx1-ubyte'
